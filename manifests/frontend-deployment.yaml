@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: awashm1test/frontend:v11
+        image: awashmtest/frontend:v11
         imagePullPolicy: Always
         env:
           - name: REACT_APP_APIHOSTPORT

@@ -49,15 +49,8 @@ By working through this project, you'll develop a deeper understanding of cloud-
 
 ### **************************Steps to Deploy**************************
 
-Youtube Video to refer:
 
-[![Video Tutorial](https://img.youtube.com/vi/pTmIoKUeU-A/0.jpg)](https://youtu.be/pTmIoKUeU-A)
-
-Susbcribe:
-
-[https://www.youtube.com/@cloudchamp?
-](https://www.youtube.com/@cloudchamp?sub_confirmation=1)
-
+Note- this is the  practise demo cloned from the owner repository credit goes to the  him            Modified and maintained by Awash.
 
 Create EKS cluster with NodeGroup (2 nodes of t2.medium instance type)
 Create EC2 Instance t2.micro (Optional)
@@ -110,14 +103,14 @@ If using EC2 and getting the "You must be logged in to the server (Unauthorized)
 
 Clone the github repo
 ```
-git clone https://github.com/N4si/K8s-voting-app.git
+git clone https://github.com/N4si/K8s-voting-app.git](https://github.com/AwashAwash/voting-app.git
 ```
 
 **Create CloudChamp Namespace**
 ```
 kubectl create ns cloudchamp
 
-kubectl config set-context --current --namespace cloudchamp
+kubectl config set-context --current --namespace awashm
 ```
 
 **MONGO Database Setup**
@@ -164,7 +157,7 @@ sleep(5000);
 EOF
 ```
 
-Note: Wait until this command completes successfully, it typically takes 10-15 seconds to finish, and completes with the message: bye
+Note: Wait until this command completes successfully, it typically takes 10-15 seconds to finish, and completes with the message: bye 
 
 
 To confirm run this in the terminal:

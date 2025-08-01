@@ -108,7 +108,7 @@ git clone https://github.com/N4si/K8s-voting-app.git](https://github.com/AwashAw
 
 **Create CloudChamp Namespace**
 ```
-kubectl create ns cloudchamp
+kubectl create ns awashm
 
 kubectl config set-context --current --namespace awashm
 ```
